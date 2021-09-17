@@ -1,0 +1,1 @@
+print("Nombre del alumno; Sharlene Miorzlava Cervantes Vazquez, lugar de residencia: El refugio de Agua zarca, Fecha de Nacimiento: 24 de enero del año 2002, Color favorito: Verde, Animal Favorito: Panda")
