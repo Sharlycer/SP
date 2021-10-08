@@ -1,9 +1,9 @@
-###**FUNDAMENTOS DE INVESTIGACION**
+### FUNDAMENTOS DE INVESTIGACION
 
-## Acerca del Autor:
-#Sharlene Mirozlava Cevantes Vazquez 
+# Acerca del Autor:
+# Sharlene Mirozlava Cevantes Vazquez 
 
-## **UNIDAD 1**
+## *UNIDAD 1*
 # Obejtivo: Comprender los conceptos de la programacion orientada a objetos, para aplicarlos en la resolucion de problemas.
 
 # Python: Es un lengujjae de programacion indispensable para cualquier informático o aprendiz de desarrollo web. Constituye una base sólida para quienes deseen formarse en el área, porque se trata de un lenguaje dinámico que se implementa en una variedad de plataformas.
@@ -19,7 +19,8 @@
 ![alt text](https://www.google.com/imgres?imgurl=http%3A%2F%2F4.bp.blogspot.com%2F-1-BVHamRYmw%2FUpsxXYmeykI%2FAAAAAAAAAAc%2FT5gphsnuhW8%2Fs1600%2FDraw.io-Draw-Diagrams-Online.png&imgrefurl=http%3A%2F%2Fciudadanostic.blogspot.com%2F2013%2F12%2Fdrawio.html&tbnid=a_t8Iy88tcCMJM&vet=12ahUKEwiuodzYgZPzAhUNzqwKHZK4CfIQMygDegQIARAX..i&docid=26X5HpZz9BRB3M&w=250&h=250&q=imagenes%20dem%20draw.io&ved=2ahUKEwiuodzYgZPzAhUNzqwKHZK4CfIQMygDegQIARAX)
 
 
-## **UNIDAD 2** 
+## *UNIDAD 2*
+
 # Github: Es un portal creado para alojar el código de las aplicaciones de cualquier desarrollador, y que fue comprada por Microsoft en junio del 2018. La plataforma está creada para que los desarrolladores suban el código de sus aplicaciones y herramientas, y que como usuario no sólo puedas descargarte la aplicación, sino también entrar a su perfil para leer sobre ella o colaborar con su desarrollo.
 
 ![alt text](https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.blogs.es%2F4e5da4%2Fgithub3%2F450_1000.jpg&imgrefurl=https%3A%2F%2Fwww.xataka.com%2Faplicaciones%2Fmicrosoft-punto-adquirir-github-desarrolladores-desarrolladores-desarrolladores&tbnid=gWKLTsTlRWCKqM&vet=12ahUKEwjXlcLGgZPzAhUHXqwKHSHTD-YQMygBegUIARCzAQ..i&docid=flDmopEMOe8xEM&w=450&h=273&q=imagenes%20de%20github&ved=2ahUKEwjXlcLGgZPzAhUHXqwKHSHTD-YQMygBegUIARCzAQ)
@@ -28,7 +29,7 @@
 
 ![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.easyappcode.com%2F10-packages-de-sublime-text-que-todo-desarrollador-web-deberia-conocer&psig=AOvVaw3q3uzxYBaSkdQcL8mL5kxQ&ust=1632414776477000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDn2I2Bk_MCFQAAAAAdAAAAABAX)
 
-## **Definiciones**
+## *Definiciones*
 
 # Variable
 Es un objeto con cierta identidad, pero el medio que lo rodea lo obliga a variar en torno a las condiciones que se presentan. Una de las aplicaciones que más se le da al término es en la matemática, ya que, cuando se nos presenta una ecuación, es con el fin de darle un valor fijo y exacto a una o más variables, esta condición, permiten que la resolución de problemas sean más sencillos.
