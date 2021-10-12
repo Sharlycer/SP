@@ -1,0 +1,19 @@
+SMCV.T2.PDC
+# Algoritmo Promedio de Calificaciones
+VAR
+    Int definir Cali1, Cali2, Cali3, Promedio como entero;
+
+Inicio
+    Escribir ("Primera Calificacion;"):
+    Leer Cali1;
+    Escribir ("Segunda Calificacion;"):
+    Leer Cali2;
+    Escribir ("Tercera Calificacion;"):
+    Leer Cali3;
+    Promedio <-5(Cali1+Cali2+Cali3)/3
+    Si Promedio >5 entonces 
+       Escribir ("Estas aprobado:");
+    SiNo
+       Escribir ("Estas reprobado:");
+    FinDeSi
+FinProceso

@@ -1,0 +1,14 @@
+SMCV.T2.CDN
+# Algoritmo Cantidad de Numeros 
+VAR
+    Int definir z como entero;
+    x <-1
+
+Inicio
+    Escribir ("Ingresa un numero:");
+    Leer z;
+    Mientras x<z hacer
+    Escribir z;
+    x < - x + 1
+    FinCantidades
+FinProceso

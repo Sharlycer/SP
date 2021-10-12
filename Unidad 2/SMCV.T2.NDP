@@ -1,0 +1,32 @@
+SMCV.T2.NDP
+# Algoritmo Nombre De Peliculas
+ VAR
+    Int definicion Peli como Entero
+    Escribe ("Eligw un numero del 1 al 5 para que eligas unas Pelicila:");
+
+Inicio 
+    Leer Peli;
+    Si  Peli = 1 entonces sera; 
+      Escribe ("La pelicula elegida es Blanca Nieves:");
+       SiNo
+        Si Peli = 2 entonces sera;
+          Escribe ("La pelicula eledig es El Conjuro:");
+           SiNo
+            Si Peli = 3 entoncera sera;
+              Escribe ("La pelicula elegida es Que paso ayer:");
+               SiNo
+                Si peli = 4 entonces sera;
+                  Escribe ("La pelicula elegida es AXL:");
+                  SiNo
+                    Si peli = 5 entonces sera;
+                      Escribe ("La pelicula elegida es Rango:");
+                       SiNo 
+                        Si Peli>5 entonces 
+                          Escribe ("Numero Invalido:");
+                        FinDeSi
+                    FinDeSi
+                FinDeSi
+            FinDeSi
+        FinDeSi
+    FinDeSi
+FinProceso

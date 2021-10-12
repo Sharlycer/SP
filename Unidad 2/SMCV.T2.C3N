@@ -1,0 +1,25 @@
+SMCV.T2.M3N
+
+# Algoritmo Mayor de 3 Numeros 
+VAR
+    Int definir y,x,z, sumar como Entero
+
+Inicio
+    Escribir ("Ingresa el numero y:");
+    Leer y;
+    Escribir ("Ingresa el numero x:");
+    Leer x;
+    Escribir ("Ingresa el nuemro z:");
+    Leer z;
+
+    Si y>x entonces
+    Si y>z entonces 
+      Escribe ("El mayor es", y);
+      FinDeSi
+  SiNo
+    Si x>z entonces 
+      Escribe ("El mayor es", x);
+    Sino
+      Escribe ("El mayor es", z);
+      FinDeSi
+ FinProceso
