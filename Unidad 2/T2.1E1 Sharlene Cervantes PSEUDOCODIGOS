@@ -1,0 +1,90 @@
+T2.1E1 Sharlene Cervantes PSEUDOCODIGOS
+ # Ejercicios de Pseudocodigos
+    Escribir ("Primera Calificacion:");
+    Leer Calificacion1;
+    Escribir ("Segunda Calificacion:");
+    Leer Calificacion2;
+    Escribir ("Tercera Calificacion:");
+    Leer Calificacion3;
+    Escribir ("Cuarta Calificacio:");
+    Leer Calificacion4;
+    Escribir ("Quinta Calificacion:")
+    Leer Calificacion5;
+    Escribe "Las Calificacione son:", Calificacion1 "", Calificacion2 "", Calificacion3 "", Calificacion4 "", Calificacion5 "";
+    FinProceso
+
+
+
+ # Algoritmo Promedio:;
+VAR
+    Int Calificacion1;
+    Int Calificacion2;
+    Int Calificacion3;
+    Int Calificacion4;
+    Int Calificacion5;
+    Int Promedio;
+
+Inicio
+    Ejercicios de Pseudocodigos
+    Escribir ("Primera Calificacion:");
+    Leer Calificacion1;
+    Escribir ("Segunda Calificacion:");
+    Leer Calificacion2;
+    Escribir ("Tercera Calificacion:");
+    Leer Calificacion3;
+    Escribir ("Cuarta Calificacio:");
+    Leer Calificacion4;
+    Escribir ("Quinta Calificacion:")
+    Leer Calificacion5;
+    Promedio = (Calificacion1+Calificacion2+Calificacion3+Calificacion4+Calificacion5)/5
+    Escribir ("El Promedioes:", Promedio);
+    FinProceso
+
+
+
+ # Algoritmo NumeroCuadrado;
+VAR
+    Int X;
+    Int Resultado;
+
+Inicio
+    Escribir ("Ingresa un numero");
+    Leer X;
+    Resultado = sqr(X)
+    Escribir ("El cuadrado del numero ingresado es:", Resultado);
+    FinProceso
+
+
+
+ # Algoritmo NombreApellido;
+VAR
+    Caracter Nombre;
+    Caracter Apellidop;
+    Caracter Apellidom;
+
+Inicio
+    Ecribir ("¿Cual es tu Nombre(s)?:");
+    Leer Nombre;
+    Ecribir ("¿Cual es tu primer Apellido?:");
+    Leer Apellidop;
+    Ecribir ("¿Cual es tu segundo Apellido?:");
+    Leer Apellidom;
+    Ecribir ("Tu nombre completo es:", Nombre, Apellidop, Apellidom);
+    FinProceso
+
+
+
+ # Algoritmo NumeroMayor;
+VAR
+    Int z;
+    Int y;
+
+Inicio
+    Escribir ("Ingresa el valor del primer numero");
+    Leer x;
+    Escribir ("Ingresa el valor del segundo numero");
+    Leer y;
+    IF (x>y);
+              Escribir ("El Numero Mayor es:", z);
+              Escribir ("El Numero Mayor es:", y);
+    FinProceso
