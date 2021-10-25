@@ -80,3 +80,49 @@ Los operadores son símbolos que indican cómo se deben manipular los operandos.
 Un constructor, en programación orientada a objetos, es un conjunto de instrucciones diseñado especialmente para inicializar una instancia de un objeto. Pueden pasarse parámetros a un constructor, de la misma forma que una función.El nombre del constructor tiene que ser obligatoriamente el mismo que el de la clase. De esta manera, puedes distinguir entre los diferentes constructores que puedes tener en la clase con los otros métodos.
 Los modificadores son los mismo que el de las funciones. Así, para los constructores pueden tener como modificadores public, private, y protected.
 Los <argumentos> se hace de la misma manera que con las funciones, poniendo su tipo de datos y el nombre del argumento a usar.
+
+### Clase
+Una clase es una herramienta que tenemos para modelar objetos de programación, lograr que se comporten como queremos y hacer tantas copias de estos como necesitemos. Por ahora simplemente pensemos que es código que está encapsulado en un Script de programación.
+
+Ejemplo 1, una Clase de Programación genérica
+Cuando creamos un nuevo Script, al abrirlo nos vamos a encontrar con algo de código ya escrito.
+En la figura 3 podemos observar que en las tres primeras líneas se importan algunas librerías que nos permitirán acceder a la funcionalidad del motor Unity.
+![alt text](https://gamedevtraum.com/wp-content/uploads/articulos/conceptos-programacion/que-es-una-clase/clase-programacion-ejemplo-1.webp)
+
+Ejemplo 2, Subclase de otra clase
+Este ejemplo es similar al ejemplo 1, podemos hacer clases que deriven de otras clases (herencia de clases), no necesariamente MonoBehaviour sino cualquier clase de UnityEngine o que hayamos creado.
+En la figura 5 vemos que la clase Clase3 hereda de Clase2.
+![alt text](https://gamedevtraum.com/wp-content/uploads/articulos/conceptos-programacion/que-es-una-clase/clase-programacion-ejemplo-3.webp)
+
+Ejemplo 3, Subclase de Object
+En el ejemplo de la figura 4 se ha removido la herencia de MonoBehaviour, esto implica que la Clase2 va a heredar implicitamente de la clase «Object», la cual probablemente es la madre de todas las clases que vamos a usar en Unity.
+Al remover el MonoBehaviour los comentarios en verde en las líneas 7 y 13 de la figura 4 dejan de ser verdad. Estos métodos Start y Update no serán ejecutados automáticamente.
+Normalmente no se suele utilizar en Unity este tipo de clases que deriven directamente de Object.
+![alt text](https://gamedevtraum.com/wp-content/uploads/articulos/conceptos-programacion/que-es-una-clase/clase-programacion-ejemplo-2.webp)
+
+### Objeto 
+Objeto es el concepto clave de la Programación Orientada a Objetos, la idea de objeto es similar a la del mundo real, un objeto puede ser una silla, una mesa. ... Los objetos tienen dos características: Un estado y un comportamiento. Fijate que por ejemplo tu perro tiene un estado: nombre, color, raza, altura, etc.
+
+Ejemplo 1
+![alt text](https://universidad-de-los-andes.gitbooks.io/fundamentos-de-programacion/content/Nivel2/img/Fig2-4a.jpg)
+
+Ejemplo 2
+public Tienda(  )
+{
+    producto1 = new Producto( Tipo.PAPELERIA, "Lapiz", 550.0, 18, 5 );
+    producto2 = new Producto( Tipo.DROGUERIA, "Aspirina", 109.5, 25, 8 );
+    producto3 = new Producto( Tipo.PAPELERIA, "Borrador", 207.3, 30, 10 );
+    producto4 = new Producto( Tipo.SUPERMERCADO, "Pan", 150.0, 15, 20 );
+    dineroEnCaja = 0;
+}
+
+Ejemplo 3
+public Producto(Tipo pTipo, String pNombre, double pValorUnitario, int pCantidadBodega, int pCantidadMinima)
+{
+    tipo = pTipo;
+    nombre = pNombre;
+    valorUnitario = pValorUnitario;
+    cantidadBodega = pCantidadBodega;
+    cantidadMinima = pCantidadMinima;
+    cantidadUnidadesVendidas = 0;
+}
